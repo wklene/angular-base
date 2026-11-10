@@ -1,0 +1,18 @@
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+	"semi": true,
+	"bracketSpacing": true,
+	"trailingComma": "none",
+	"bracketSameLine": true,
+	"printWidth": 120,
+	"overrides": [
+		{
+			"files": ["tests/**/*.js", "tests/**/*.ts"],
+			"options": {
+				"printWidth": 300
+			}
+		}
+	]
+}
